@@ -1,2 +1,0 @@
-# ProjetoGitHub
-Aula segatto 
