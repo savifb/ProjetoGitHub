@@ -9,18 +9,41 @@ h2{
     margin: auto;
 }
 nav{
-    display: flex;
     justify-content: end;
+    background-color: rgb(255, 255, 255);
+    height: 5rem;
+    box-sizing: border-box;
+}
+nav input, select{
+    float: right;
+    margin-right: 1rem;
+    margin-top: 10%;
+
+    
+}
+
+.navinputs{
+    position: relative;
+}
+.navinputs input, select{
+
 }
 .conteiner-img-nav{
-    float: ;
-    width: 50px;
+    float: left;
 }
+.conteiner-img-nav img{
+    width: 10%;
+    height: auto;
+}   
 /*formulario*/
+main{
+    margin-top: 25%;
+}
 .padding-formulario{
     padding: 2%;
     text-align: center;
     box-sizing: border-box;
+    
     
 }
 .g-3{
