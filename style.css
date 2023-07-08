@@ -1,7 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #EC9191;
+    background-color: #ffff;
+    width: 100%;
 }
 h2{
     color: white;
@@ -9,7 +10,6 @@ h2{
     margin: auto;
 }
 nav{
-    justify-content: end;
     background-color: rgb(255, 255, 255);
     height: 5rem;
     box-sizing: border-box;
@@ -17,28 +17,38 @@ nav{
 nav input, select{
     float: right;
     margin-right: 1rem;
-    margin-top: 10%;
-
-    
-}
-
-.navinputs{
+    float: right;
     position: relative;
+    top: 50px;
+    right: 5%;
 }
-.navinputs input, select{
-
-}
-.conteiner-img-nav{
-    float: left;
-}
-.conteiner-img-nav img{
+nav select{
+    border: none;
     width: 10%;
-    height: auto;
-}   
+    color: gray;
+}
+nav input{
+    border-radius: 25px;
+    width: 75px;
+    padding: auto;
+    border: none;
+    background-color: #349730;
+    color: white;
+}
+nav input:hover{
+    background-color: #C80C0F;
+}
+
+
 /*formulario*/
 main{
-    margin-top: 25%;
+    margin-top: 10%;
+    box-sizing: border-box;
 }
+main h2{
+    color: black;
+}
+
 .padding-formulario{
     padding: 2%;
     text-align: center;
@@ -55,9 +65,9 @@ main{
 }
 .g-3 input{
     padding: 0.8rem;
-    border: none;
     width: 75%;
     margin-top: 5%;
+    
 }
 .col{
     width: 35%;
@@ -73,25 +83,28 @@ main{
 .flex input{
     border-radius: 10px;
     padding: 1%;
-    width: 5rem;
+    width: 8rem;
     border: none;
     margin-bottom: 5rem;
+    background-color: #349730;
+    color: white;
+}
+.flex input:hover{
+    background-color:#C80C0F ;
+    color: white;
+    
 }
 
+footer{
+	text-align: center;
+    height: 2rem;
+
+	
+}
 footer{
     background-color: rgb(52, 43, 43);
     width: 100%;
     color: white;
-    text-align: center;
-    height: 5%;
-    display: table;
-    position: absolute;
-    top: 95%;
-
-}
-footer p{
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+    padding: 1%;
 
 }
