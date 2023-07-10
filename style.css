@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;0,900;1,500;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body{
     margin: 0%;
     padding: 0%;
@@ -9,34 +11,53 @@ h2{
     text-align: center;
     margin: auto;
 }
-nav{
-    background-color: rgb(255, 255, 255);
-    height: 5rem;
-    box-sizing: border-box;
+.caixa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
-nav input, select{
-    float: right;
-    margin-right: 1rem;
-    float: right;
-    position: relative;
-    top: 50px;
-    right: 5%;
+.caixa h1{
+    color: #000;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 66px;
 }
-nav select{
-    border: none;
-    width: 10%;
-    color: gray;
+.west{
+    text-align: center;
+    width: 478px;
+    margin: 0 auto;
 }
-nav input{
-    border-radius: 25px;
-    width: 75px;
-    padding: auto;
+.ilustra-sobre{
+    width: 364px;
+    height: 377px;
+}
+.login, .cadastro {
+    padding: 5px 48px;
+    border-radius: 50px;
+}
+.login{
+    border: 1px solid #349730;
+    background-color: transparent;
+}
+.cadastro{
     border: none;
     background-color: #349730;
     color: white;
 }
-nav input:hover{
-    background-color: #C80C0F;
+#head{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 2rem;
+    justify-content: space-between;
+}
+#head img{
+    width: 180px;
 }
 .title{
     font-weight: 600;
