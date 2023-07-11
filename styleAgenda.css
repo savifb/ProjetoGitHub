@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;0,900;1,500;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #ffff;
+}
+h2{
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+/*formulario*/
+nav input, select{
+    border: none;
+    
+
+}
+nav input{
+    width: 15%;
+    border-radius: 30px;
+    background-color: #349730;
+    color: white;
+}
+nav input:hover{
+    background-color: #C80C0F;
+}
+nav select{
+    width: 16%;
+}
+
+main{
+    margin-top: 10%;
+    box-sizing: border-box;
+}
+main h2{
+    color: black;
+}
+
+.padding-formulario{
+    box-sizing: border-box;
+    padding: 2%;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin: auto;
+  
+}
+
+.g-3 input{
+    padding: 0.8rem;
+    width: 75%;
+    margin-top: 5%;
+    
+}
+
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+
+}
+.flex input{
+    border-radius: 10px;
+    padding: 1%;
+    width: 8rem;
+    border: none;
+    margin-bottom: 5rem;
+    background-color: #349730;
+    color: white;
+}
+.flex input:hover{
+    background-color:#C80C0F ;
+    color: white;
+    
+}
+
+footer{
+	text-align: center;
+    height: 2rem;
+
+	
+}
+footer{
+    background-color: rgb(52, 43, 43);
+    width: 100%;
+    color: white;
+    padding: 3%;
+
+}
