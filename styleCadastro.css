@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    box-sizing: border-box;
+}
+.bodycadastro{
+	display: grid;
+	grid-template-columns: 5fr 5fr;
+	grid-template-rows: 100vh;
+	grid-template-areas:
+                        "main1 main2"
+                        "main1 main2"
+                        "main1 main2";
+				
+}
+.main1{
+    margin-top: 0;
+	grid-area: main1;
+	background: rgb(255, 255, 255);
+    padding: 5%;
+}
+.main1 img{
+    margin-bottom: 10%;
+}
+.main1 p{
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 3%;
+    color: #455A64;
+    font-style: italic;
+    font-weight:bolder ;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+.flex button{
+    border-radius: 20px;
+    padding: 3%;
+    width: 10rem;
+    border: none;
+    margin-bottom: 5rem;
+    background-color: #455A64;
+    
+}
+.flex button:hover{
+    background-color:#349730 ;
+    color: white;
+}
+.main2{
+    margin-top: 0;
+	grid-area: main2;
+	background-color: #349730;
+    display: grid;
+}
+
+.imgcadastro{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.padding-formulario{
+    box-sizing: border-box;
+    padding: 2%;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin: auto;
+  
+}
+
+.g-3 input{
+    padding: 0.8rem;
+    width: 80%;
+    margin-top: 5%;
+    
+}
+
