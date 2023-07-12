@@ -19,8 +19,16 @@ nav input, select{
     
 
 }
-nav input{
-    width: 15%;
+a{
+    flex: wrap;
+    border-radius: 30px;
+    background-color: #349730;
+    color: white;
+}
+
+nav input {
+    width: 45%;
+    flex: wrap;
     border-radius: 30px;
     background-color: #349730;
     color: white;
