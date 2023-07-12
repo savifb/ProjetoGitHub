@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+    border-bottom: 0.5px solid #CCC;
+}
+
+#header img {
+    width: 80px;
+}
+
+#header .navigation {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+#header .navigation a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+
+.login, .cadastro {
+    padding: 8px 48px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.login{
+    border: 1px solid #349730;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.cadastro{
+    border: none;
+    background-color: #349730;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+    padding: 0;
+}
+
+main h1 {
+    font-size: 50px;
+    line-height: 66px;
+    font-weight: 500;
+}
+
+main .paragrafos {
+    width: 478px;
+}
+
+main .paragrafos p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 30px;
+}
+
+main img {
+    width: 330px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #455A64;
+}
+
+footer p {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* Media Query para dispositivos com largura menor ou igual a 768px */
+@media (max-width: 768px) {
+    main .paragrafos {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    main img {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    main h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}

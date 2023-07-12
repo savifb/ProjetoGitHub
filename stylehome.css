@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
 body{
+    font: 'Roboto', sans-serif;
     margin: 0%;
     padding: 0%;
     background-color: #FFF;
@@ -129,4 +134,8 @@ footer {
 footer p {
     font-size: 20px;
     color: #ffffff;
+}
+
+a {
+    font: 'Roboto', sans-serif;
 }
